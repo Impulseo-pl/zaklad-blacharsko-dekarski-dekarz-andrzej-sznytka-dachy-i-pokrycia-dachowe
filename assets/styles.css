@@ -345,8 +345,8 @@ p,li,blockquote,dd{text-wrap:pretty}
 .tile .cap{position:absolute;left:0;right:0;bottom:0;padding:var(--space-5) var(--space-4) var(--space-4);
   /* mocniejszy spad + cien pod tekstem: na JASNYCH zdjeciach klienta (biale fronty, sciany)
      slaby gradient dawal kontrast ~1.5:1 zamiast wymaganych 3.6:1 (bramka wygladu, 10.08.2026) */
-  background:linear-gradient(transparent 28%,rgba(18,24,28,.58) 62%,rgba(18,24,28,.93));color:#fff;
-  text-shadow:0 1px 3px rgba(0,0,0,.6);
+  background:linear-gradient(transparent 22%,rgba(18,24,28,.7) 58%,rgba(18,24,28,.97));color:#fff;
+  text-shadow:0 1px 4px rgba(0,0,0,.75);
   font-size:var(--text-sm);font-weight:600;letter-spacing:.01em;
   opacity:0;transform:translateY(8px);transition:var(--dur) var(--ease)}
 .tile:hover .cap{opacity:1;transform:translateY(0)}
